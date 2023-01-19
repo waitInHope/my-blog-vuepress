@@ -39,6 +39,14 @@ module.exports = {
           { title: '最新语法', path: '/js/LatestVocabulary' },
           { title: '基础语法', path: '/js/BasicVocabulary' }
         ]
+      },
+      {
+        title: 'Storybook',
+        path: '/storybook/index',
+        collapsable: false,
+        children: [
+          { title: '基础用法', path: '/storybook/BasicContent' }
+        ]
       }
     ],
     subSidebar: 'auto'
