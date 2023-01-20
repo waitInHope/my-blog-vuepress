@@ -47,6 +47,14 @@ module.exports = {
         children: [
           { title: '基础用法', path: '/storybook/BasicContent' }
         ]
+      },
+      {
+        title: '浏览器原理',
+        path: '/browser/index',
+        collapsable: false,
+        children: [
+          { title: '多进程架构', path: '/browser/MutiProcessFramework' }
+        ]
       }
     ],
     subSidebar: 'auto'
