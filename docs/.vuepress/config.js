@@ -55,6 +55,14 @@ module.exports = {
         children: [
           { title: '多进程架构', path: '/browser/MutiProcessFramework' }
         ]
+      },
+      {
+        title: '个人建站工作整理',
+        path: '/build-website/index',
+        collapsable: true,
+        children: [
+          { title: 'Linux常用命令整理', path: '/build-website/Linux' }
+        ]
       }
     ],
     subSidebar: 'auto'
